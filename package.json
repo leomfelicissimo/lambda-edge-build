@@ -1,0 +1,20 @@
+{
+  "name": "lambda-edge-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "manual-pack": "gulp default zip"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-zip": "^4.2.0",
+    "sh-thunk": "^0.2.6"
+  }
+}
